@@ -21,6 +21,10 @@ from __future__ import division
 import numpy as np
 import pylab as plt
 
+np.float = float
+np.int = int
+np.bool = bool
+
 from ._calculateTF import calculateTF
 from ._dbv import dbv
 from ._ds_f1f2 import ds_f1f2
